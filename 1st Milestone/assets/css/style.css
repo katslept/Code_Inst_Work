@@ -13,11 +13,11 @@
 .callout-container {
     height: 100vh;
 
-    background: url("../images/band.jpg") no-repeat center center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    background: url("../images/The_Monkees_May_1967.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
     display: flex;
     align-items: center;
