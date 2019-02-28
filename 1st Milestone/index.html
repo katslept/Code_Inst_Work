@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- To ensure proper rendering and touch zooming -->
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- My css file -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
 </head>
 
 <body>
-    <header class="container-fluid">
+    <!-- ----------------NAV------------------- -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- Navbar-* needed to render the options! -->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-center">
+                    <li class="active"><a href="index.html"><span>Home hey dweebs</span></a></li>
+                    <li><a href="about.html"><span>About</span></a></li>
+                    <li><a href="listen.html"><span>Listen and Watch</span></a></li>
+                    <li><a href="gallery.html"><span>Gallery</span></a></li>
+                    <li><a href="hire.html"><span>Hire Us</span></a></li>
 
-        <!-- MENU LINKS -->
-        <div class="row">
-            <ul id="nav" class="list-inline clearfix">
-                <li class="col-xs-1 col-sm-1 ui-menu-color-home menuitem">
-                    <a href="index.html" class="hvr-sweep-to-bottom"><span>Home</span></a>
-                </li>
-                <li class="col-xs-1 col-sm-1 ui-menu-color-resume menuitem">
-                    <a href="about.html" class="hvr-sweep-to-bottom"><span>About</span></a>
-                </li>
-                <li class="col-xs-1 col-sm-2 ui-menu-color-contact menuitem">
-                    <a href="listen.html" class="hvr-sweep-to-bottom"><span>Listen and Watch</span></a>
-                </li>
-                <li class="col-xs-1 col-sm-1 ui-menu-color-contact menuitem">
-                    <a href="gallery.html" class="hvr-sweep-to-bottom"><span>Gallery</span></a>
-                </li>
-                <li class="col-xs-1 col-sm-1 ui-menu-color-download menuitem">
-                    <a href="hire.html" class="hvr-sweep-to-bottom"><span>Hire Us</span></a>
-                </li>
-                <!-- /menu links -->
+                    <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://soundcloud.com/themonkees"><i class="fa fa-soundcloud"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/themonkees__/?hl=en"><i class="fa fa-instagram"></i></a></li>
 
-                <!-- SOCIAL MEDIA LINKS  -->
-                <!-- Copied from No. 1 in Links.txt -->
-                <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" href="https://www.pinterest.ie/cheerupsleepyjean/"><i class="fa fa-pinterest"></i></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/themonkees__/?hl=en"><i class="fa fa-instagram"></i></a></li>
-                <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
 
-                <!-- /social media links -->
-            </ul>
         </div>
+    </nav>
 
-    </header>
     <section>
         <div class="container-fluid callout-container">
             <div class="opaque-overlay">&nbsp;</div>
             <!-- Callout -->
-            <div class="row">
-                <div class="col-xs-12">
-                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Listen</button></p>
-
-    </section>
-    </div>
-    </div>
-
-    </div>
+            <!-- <button type="button" class="btn btn-default"> Listen</button> -->
+            <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Listen</button></p>
+        </div>
     </section>
 
-    <footer class="container-fluid">
+<div class="container-fluid footer navbar-fixed-bottom">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    
+    <ul class="list-inline clearfix">
+                <li class="copyright">
+                    <a href="index.html" class="hvr-sweep-to-bottom"><span>&#169; 2020 The Apes Hit Label </span></a>
 
-        <div class="row">
-
-            <ul id="nav" class="list-inline clearfix">
-                <li class="col-xs-6 col-sm-3 copyright">
-                    <a href="index.html" class="hvr-sweep-to-bottom"><span>&#169; 2020 Apes Hit Label </span></a>
                 </li>
             </ul>
-    </footer>
+        <!-- </div> -->
+    </div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>

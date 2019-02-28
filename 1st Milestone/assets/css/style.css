@@ -1,7 +1,54 @@
+.navbar {
+    /* position: sticky; */
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 1.3em;
+    border: 0;
+    background-color: transparent;
+}
 
-/* Copied from Whiskey Landing page lesson */
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+
+    /* This pads the hamburger to that it is even on the left and right side of it */
+    .navbar-toggle {
+        margin: 15px 15px;
+    }
+
+    /* This centers the menu options when the menu is collapsed */
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        margin: 15px 15px;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    /* This still centers the menu options */
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* Copied from  No.2 in Links.txt*/
 .callout-container {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 
     background: url("../images/The_Monkees_May_1967.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -9,11 +56,7 @@
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+    position: absolute;
 }
 
 .opaque-overlay {
@@ -23,5 +66,10 @@
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    position:absolute;
+   
 }
 /* ---------------------------------------- */
