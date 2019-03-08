@@ -1,3 +1,0 @@
-1: https://github.com/Code-Institute-Solutions/UserCentricFrontendDevelopment-Resume/blob/master/18-providing_a_cv_for_download/assets/css/style.css
-2: https://github.com/Code-Institute-Solutions/BootstrapingYourNextBigIdea/blob/master/04-BeyondBootstrap/04-cleaning_up_our_content/css/style.css
-3: https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load
