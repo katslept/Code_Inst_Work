@@ -160,16 +160,20 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* ----------------------------------GALLERY STUFF */
 
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* --------------------------------------FOOTER STUFF */
 .footer {
     position: absolute;
 
 }
-
-/* .contacts-div{
-    float:right;
-} */
 
 .contacts{
     list-style: none;
